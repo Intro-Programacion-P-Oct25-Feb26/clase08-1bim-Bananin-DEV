@@ -43,16 +43,10 @@ public class Ejemplo021 {
                     break;
             }
 
-            
+        } while (bandera); // (bandera==true)
 
-        }while (bandera); // (bandera==true)
+        System.out.printf(
+                "Listado de Notas\n%s\n", cadenaFinal);
 
-            System.out.printf(
-                    "Listado de Notas\n%s\n", cadenaFinal);
-        
-    
+    }
 }
-}
-
-        
-

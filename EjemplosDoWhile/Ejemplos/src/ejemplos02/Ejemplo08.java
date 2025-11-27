@@ -36,11 +36,11 @@ public class Ejemplo08 {
             } else {
                 signo = "-";
             }
-            
-            cadena = String.format("%s%s%d/%d ", 
+
+            cadena = String.format("%s%s%d/%d ",
                     cadena,
                     signo,
-                    numerador, 
+                    numerador,
                     denominador);
             numerador = numerador + 1;
             denominador = denominador + 1;
